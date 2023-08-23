@@ -1,0 +1,25 @@
+unet:
+  image_size: 512
+  dim: 256
+  num_classes: 10
+  dim_mults:
+    - 1
+    - 2
+    - 4
+  channels: 4
+  resnet_block_groups: 2
+  block_per_layer: 2
+  
+dm:
+  timesteps: 1000
+  sampling_timesteps: 250
+  batch_size: 32
+  lr: 0.0001
+  train_num_steps: 250000
+  save_sample_every: 25000
+  gradient_accumulate_every: 1
+  save_loss_every: 100
+  num_samples: 4
+  num_workers: 32
+  results_folder: './models/image_gen10'
+  milestone: 10

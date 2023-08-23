@@ -1,0 +1,8 @@
+.idea
+.ipynb_checkpoints/
+__pycache__/*
+utils/__pycache__/
+
+models/
+data/
+download_script.py
