@@ -7,11 +7,11 @@
 <div style="text-align: center;">Infinite Generation Sampling Method:</div>
 
 <div style="text-align: center;">
-  <video width="320" height="240" controls>
+<!--   <video width="320" height="240" controls>
     <source src="video.mp4" type="video/mp4">
     Your browser does not support the video tag.
-  </video>
-<!-- ![Video](images/video.m4v) -->
+  </video> -->
+![Video](images/video.m4v)
 <\div>
 
 Click on the link below to run the Jupyter Notebook on Google Colab (set ```colab=True``` in the first cell):
