@@ -110,6 +110,43 @@ body {
 .publication-body img {
 }
 
+.carousel-horizontal {
+  display: flex;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+/* Move to the next item */
+.carousel-horizontal.next {
+  transform: translateX(-100%);
+}
+
+.results-horizontal .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.carousel-vertical {
+  display: flex;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+/* Move to the next item */
+.carousel-vertical.next {
+  transform: translateY(-100%);
+}
+
+.results-vertical .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+
 .results-carousel {
   overflow: hidden;
 }
