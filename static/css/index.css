@@ -149,6 +149,7 @@ body {
 }
 
 .vertical-text {
+  width: 20%;
   writing-mode: vertical-rl;
   text-align: center;
 }
