@@ -123,6 +123,9 @@ body {
 
 .carousel-vertical {
   overflow: hidden;
+}
+
+.carousel-vertical.slider-container {
   flex-direction: column;
 }
 
