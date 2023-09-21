@@ -110,29 +110,6 @@ body {
 .publication-body img {
 }
 
-.carousel-horizontal {
-  overflow: hidden;
-}
-
-.carousel-horizontal .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
-}
-
-.carousel-vertical {
-  overflow: hidden;
-  flex-direction: column;
-}
-
-.carousel-vertical .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
-}
-
 .results-carousel {
   overflow: hidden;
 }
@@ -158,3 +135,12 @@ body {
 
 
 
+.left-panel {
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+}
+
+.right-panel {
+  overflow: hidden;
+}
