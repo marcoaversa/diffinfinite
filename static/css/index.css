@@ -129,7 +129,7 @@ body {
 }
 
 .carousel-vertical {
-  display: flex;
+  display: block;
   overflow: hidden;
   transition: transform 0.5s ease;
 }
