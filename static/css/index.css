@@ -134,6 +134,7 @@ body {
 }
 
 .column {
-  width: 48%; /* Adjust the width as necessary */
+  flex: 1; /* Makes both columns share the available space equally */
   box-sizing: border-box;
+  padding: 10px; /* Optional */
 }
