@@ -143,9 +143,14 @@ body {
   padding: 10px;
 }
 
-#title {
+#grid {
   display: grid;
-  grid-template-columns: 5% 20% 20%;
+  grid-template-columns: 5% 20% 20% 5% 20% 20%;
+}
+
+#vertical-text {
+  writing-mode: vertical-rl;
+  text-align: center;
 }
 
 #img {
