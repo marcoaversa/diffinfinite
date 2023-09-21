@@ -139,12 +139,12 @@ body {
 }
 
 #left {
-  width: 1;
+  flex: 1;
   background-color: #d0e4fe;
 }
 
 #center {
-  flex: 45%; /* Takes the remaining available space */
+  width: 45%;
   background-color: #e0e0e0;
 }
 
