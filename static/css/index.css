@@ -138,19 +138,14 @@ body {
   padding: 10px;
 }
 
-#left {
-  flex: 1;
-  background-color: #d0e4fe;
+#title {
+  width: 5%;
+  background-color: #ffffff;
 }
 
-#center {
-  width: 45%;
-  background-color: #e0e0e0;
-}
-
-#right {
-  width: 45%;
-  background-color: #f0f4c3;
+#img {
+  width: 20%;
+  background-color: #ffffff;
 }
 
 .vertical-text {
