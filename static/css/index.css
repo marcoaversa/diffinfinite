@@ -134,6 +134,26 @@ body {
 }
 
 .column {
-  width: 45%;
   box-sizing: border-box;
+  padding: 10px;
+}
+
+#left {
+  width: 1;
+  background-color: #d0e4fe;
+}
+
+#center {
+  flex: 45%; /* Takes the remaining available space */
+  background-color: #e0e0e0;
+}
+
+#right {
+  width: 45%;
+  background-color: #f0f4c3;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-align: center;
 }
