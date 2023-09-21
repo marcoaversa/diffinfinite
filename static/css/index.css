@@ -125,15 +125,17 @@ body {
   overflow: hidden;
 }
 
-.carousel-vertical.slider-container {
+.carousel-vertical .slider-container {
+  display: flex;
   flex-direction: column;
+  transition: transform 0.5s ease-in-out;
 }
 
-.carousel-vertical .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
+.carousel-vertical .slider-item {
+  min-height: 100vh; /* each item will take up at least the full height of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .results-carousel {
