@@ -121,7 +121,7 @@ body {
   transform: translateX(-100%);
 }
 
-.results-horizontal .item {
+.carousel-horizontal .item {
   margin: 5px;
   overflow: hidden;
   padding: 20px;
@@ -139,7 +139,7 @@ body {
   transform: translateY(-100%);
 }
 
-.results-vertical .item {
+.carousel-vertical .item {
   margin: 5px;
   overflow: hidden;
   padding: 20px;
