@@ -138,12 +138,14 @@ body {
   padding: 10px;
 }
 
-.row {
+/* .row {
   box-sizing: border-box;
   padding: 10px;
-}
+} */
 
 .grid {
+  box-sizing: border-box;
+  padding: 10px;
   display: grid;
   grid-template-columns: 5% 20% 20% 5% 20% 20%;
 }
