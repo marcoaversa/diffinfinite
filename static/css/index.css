@@ -133,14 +133,7 @@ body {
   font-size: smaller;
 }
 
-
-
-.left-panel {
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-}
-
-.right-panel {
-  overflow: hidden;
+.column {
+  width: 48%; /* Adjust the width as necessary */
+  box-sizing: border-box;
 }
