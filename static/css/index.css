@@ -111,14 +111,7 @@ body {
 }
 
 .carousel-horizontal {
-  display: flex;
   overflow: hidden;
-  transition: transform 0.5s ease;
-}
-
-/* Move to the next item */
-.carousel-horizontal.next {
-  transform: translateX(-100%);
 }
 
 .carousel-horizontal .item {
@@ -129,15 +122,8 @@ body {
 }
 
 .carousel-vertical {
-  display: block;
   overflow: hidden;
   flex-direction: column;
-  transition: transform 0.5s ease;
-}
-
-/* Move to the next item */
-.carousel-vertical.next {
-  transform: translateY(-100%);
 }
 
 .carousel-vertical .item {
