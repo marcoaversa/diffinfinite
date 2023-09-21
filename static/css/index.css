@@ -131,6 +131,7 @@ body {
 .carousel-vertical {
   display: block;
   overflow: hidden;
+  flex-direction: column;
   transition: transform 0.5s ease;
 }
 
@@ -145,7 +146,6 @@ body {
   padding: 20px;
   font-size: 0;
 }
-
 
 .results-carousel {
   overflow: hidden;
