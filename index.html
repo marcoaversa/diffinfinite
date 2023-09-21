@@ -269,41 +269,12 @@
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    const container1a = document.getElementById('carousel-container-label1a');
-    const container2a = document.getElementById('carousel-container-label2a');
-    const container3a = document.getElementById('carousel-container-label3a');
-    const container4a = document.getElementById('carousel-container-label4a');
-    const container5a = document.getElementById('carousel-container-label5a');
-    const container6a = document.getElementById('carousel-container-label6a');
-    const container7a = document.getElementById('carousel-container-label7a');
-    const container8a = document.getElementById('carousel-container-label8a');
-    
-    const container1b = document.getElementById('carousel-container-label1b');
-    const container2b = document.getElementById('carousel-container-label2b');
-    const container3b = document.getElementById('carousel-container-label3b');
-    const container4b = document.getElementById('carousel-container-label4b');
-    const container5b = document.getElementById('carousel-container-label5b');
-    const container6b = document.getElementById('carousel-container-label6b');
-    const container7b = document.getElementById('carousel-container-label7b');
-    const container8b = document.getElementById('carousel-container-label8b');
-    
-    container1a.innerHTML = generateHTML(1);
-    container2a.innerHTML = generateHTML(2);
-    container3a.innerHTML = generateHTML(3);
-    container4a.innerHTML = generateHTML(4);
-    container5a.innerHTML = generateHTML(5);
-    container6a.innerHTML = generateHTML(6);
-    container7a.innerHTML = generateHTML(7);
-    container8a.innerHTML = generateHTML(8);
-
-    container1b.innerHTML = generateHTML(1);
-    container2b.innerHTML = generateHTML(2);
-    container3b.innerHTML = generateHTML(3);
-    container4b.innerHTML = generateHTML(4);
-    container5b.innerHTML = generateHTML(5);
-    container6b.innerHTML = generateHTML(6);
-    container7b.innerHTML = generateHTML(7);
-    container8b.innerHTML = generateHTML(8);
+    for(let i = 1; i <= 8; i++) {
+      const containerA = document.getElementById(`carousel-container-label${i}a`);
+      containerA.innerHTML = generateHTML(i);
+      const containerB = document.getElementById(`carousel-container-label${i}b`);
+      containerB.innerHTML = generateHTML(i);
+    }
   });
 
 </script>
