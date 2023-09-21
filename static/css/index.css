@@ -149,17 +149,11 @@ body {
 }
 
 #vertical-text {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-align: center;
 }
 
 #img {
   width: 20%;
   background-color: #ffffff;
-}
-
-.vertical-text {
-  width: 20%;
-  writing-mode: vertical-rl;
-  text-align: center;
 }
