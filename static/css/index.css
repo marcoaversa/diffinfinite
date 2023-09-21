@@ -143,12 +143,12 @@ body {
   padding: 10px;
 }
 
-#grid {
+.grid {
   display: grid;
   grid-template-columns: 5% 20% 20% 5% 20% 20%;
 }
 
-#vertical-text {
+.vertical-text {
   writing-mode: vertical-lr;
   text-align: center;
 }
