@@ -138,9 +138,14 @@ body {
   padding: 10px;
 }
 
+.row {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
 #title {
-  flex: 1;
-  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 5% 20% 20%;
 }
 
 #img {
