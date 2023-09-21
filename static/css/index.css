@@ -139,7 +139,7 @@ body {
 }
 
 #title {
-  width: 5%;
+  flex: 1;
   background-color: #ffffff;
 }
 
