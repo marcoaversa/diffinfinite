@@ -236,7 +236,7 @@
     const container = document.getElementById(containerId);
     
     const carouselBlock = `
-      <div id="results-carousel" class="carousel results-carousel">
+      <div class="carousel results-carousel">
         <div class="item">
           <img src="static/images/omegas_inpainting/sample_label${labelNumber}_cond0.png"/>
           <h2 class="subtitle has-text-centered">
@@ -273,24 +273,27 @@
   }
   
   // Call the function with the desired labelNumber
-  generateCarouselBlock('carousel-container-label1a', 1); 
-  generateCarouselBlock('carousel-container-label2a', 2); 
-  generateCarouselBlock('carousel-container-label3a', 3); 
-  generateCarouselBlock('carousel-container-label4a', 4); 
-  generateCarouselBlock('carousel-container-label5a', 5); 
-  generateCarouselBlock('carousel-container-label6a', 6); 
-  generateCarouselBlock('carousel-container-label7a', 7); 
-  generateCarouselBlock('carousel-container-label8a', 8); 
+  window.onload = function() {
+    generateCarouselBlock('carousel-container-label1a', 1); 
+    generateCarouselBlock('carousel-container-label2a', 2); 
+    generateCarouselBlock('carousel-container-label3a', 3); 
+    generateCarouselBlock('carousel-container-label4a', 4); 
+    generateCarouselBlock('carousel-container-label5a', 5); 
+    generateCarouselBlock('carousel-container-label6a', 6); 
+    generateCarouselBlock('carousel-container-label7a', 7); 
+    generateCarouselBlock('carousel-container-label8a', 8); 
 
-  generateCarouselBlock('carousel-container-label1b', 1); 
-  generateCarouselBlock('carousel-container-label2b', 2); 
-  generateCarouselBlock('carousel-container-label3b', 3); 
-  generateCarouselBlock('carousel-container-label4b', 4); 
-  generateCarouselBlock('carousel-container-label5b', 5); 
-  generateCarouselBlock('carousel-container-label6b', 6); 
-  generateCarouselBlock('carousel-container-label7b', 7); 
-  generateCarouselBlock('carousel-container-label8b', 8); 
-  </script>
+    generateCarouselBlock('carousel-container-label1b', 1); 
+    generateCarouselBlock('carousel-container-label2b', 2); 
+    generateCarouselBlock('carousel-container-label3b', 3); 
+    generateCarouselBlock('carousel-container-label4b', 4); 
+    generateCarouselBlock('carousel-container-label5b', 5); 
+    generateCarouselBlock('carousel-container-label6b', 6); 
+    generateCarouselBlock('carousel-container-label7b', 7); 
+    generateCarouselBlock('carousel-container-label8b', 8); 
+  };
+
+</script>
 
 <div class="hero-body">
   <div class="container flex-container">
