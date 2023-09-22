@@ -139,11 +139,9 @@ body {
 }
 
 .grid {
-  margin: 0 auto; /* Center grid */
   box-sizing: border-box;
   padding: 10px;
   display: grid;
-  /* grid-template-columns: 5% 20% 20% 5% 20% 20%; */
   grid-template-columns: 50% 50%;
 }
 

@@ -1,6 +1,6 @@
 function showCarousel(carouselId) {
     // Hide all images
-    var carousels = document.getElementsByClassName('hero-body');
+    var carousels = document.getElementsByClassName('container');
     for(var i = 0; i < carousels.length; i++) {
         carousels[i].style.display = 'none';
     }
