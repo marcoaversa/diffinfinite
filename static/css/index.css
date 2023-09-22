@@ -143,7 +143,7 @@ body {
   padding: 10px;
   display: grid;
   /* grid-template-columns: 5% 20% 20% 5% 20% 20%; */
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 1fr 1fr;
 }
 
 .vertical-text {
@@ -152,9 +152,9 @@ body {
 }
 
 .button {
-  background-color: #777777; 
+  background-color: #46b84a; /* Green */
   border: none;
-  color: rgb(0, 0, 0);
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
