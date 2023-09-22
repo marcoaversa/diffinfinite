@@ -177,8 +177,8 @@
   <div class="container flex-container">
     <div class="container">
       <div id="buttonContainer">
-        <button onclick="showCarousel('Alveole')">Alveole</button>
-        <button onclick="showCarousel('Artery')">Artery</button>
+        <button class="button" onclick="buttonClicked1()">Alveole</button>
+        <button class="button" onclick="buttonClicked2()">Artery</button>
         <!-- <button onclick="showCarousel('Artifacts')">Artifacts</button>
         <button onclick="showCarousel('Carcinoma')">Carcinoma</button>
         <button onclick="showCarousel('Cartilage')">Cartilage</button>
@@ -190,13 +190,22 @@
   </div>
 </div>
 
-<div class="hero-body" id="Alveole">
+<script>
+function buttonClicked1() {
+  alert('Button1 has been clicked!');
+}
+function buttonClicked2() {
+  alert('Button2 has been clicked!');
+}
+</script>
+
+<!-- <div class="image" id="Alveole">
   <img src='static/images/carousel1.jpg'>
 </div>
 
 <div class="hero-body" id="Artery" style="display: none;">
   <img src='static/images/carousel2.jpg'>
-</div>
+</div> -->
 
 
 <!-- <div class="container" id="Alveole">
