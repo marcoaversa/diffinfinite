@@ -6,5 +6,5 @@ function showCarousel(carouselId) {
     }
     
     // Show the selected image
-    document.getElementById(carouselId).style.display = 'block';
+    document.getElementById(carouselId).style.display = 'grid';
   }
