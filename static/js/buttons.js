@@ -1,9 +1,6 @@
 function showCarousel(carouselId) {
-    // First, hide all carousels
-    document.querySelectorAll('.grid').forEach(grid => {
-        grid.style.display = 'none';
-    });
-
-    // Now, show the chosen carousel
-    document.getElementById(carouselId).style.display = 'block';
+    const carousels = document.getElementsByClassName('hero-body');
+    for (let carousel of carousels) {
+        carousel.style.display = carousel.id === carouselId ? 'block' : 'none';
+    }
 }
