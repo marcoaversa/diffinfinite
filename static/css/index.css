@@ -177,3 +177,7 @@ body {
 .image.active {
   display: block;
 }
+
+.carousel {
+  display: none; /* Initially hide all carousels */
+}
