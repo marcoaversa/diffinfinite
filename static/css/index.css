@@ -161,12 +161,12 @@ body {
   color: #ffffff; /* Black */
   /* border: 1px solid #000000;  */
   border: none;
-  margin-bottom: 10px; /* or any space you want between buttons and image */
+  /* margin-bottom: 10px;  */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
   cursor: pointer;
 }
