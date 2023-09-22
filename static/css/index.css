@@ -112,6 +112,7 @@ body {
 
 .results-carousel {
   overflow: hidden;
+  transform: none;
 }
 
 .results-carousel .item {

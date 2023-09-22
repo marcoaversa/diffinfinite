@@ -1,6 +1,6 @@
 function generateHTML(labelNumber) {
     return `
-    <div class="carousel results-carousel" style="autoplay: false">
+    <div class="carousel results-carousel">
       <div class="item">
         <img src="static/images/omegas_inpainting/sample_label${labelNumber}_cond0.png"/>
         <h2 class="subtitle has-text-centered">

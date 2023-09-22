@@ -5,7 +5,7 @@ function showCarousel(carouselId) {
         carousels[i].style.display = 'none';
     }
 
-    document.getElementById(carouselId).style.display = 'block';
+    document.getElementById(carouselId).style.display = 'flex';
   }
 
 document.addEventListener("DOMContentLoaded", function() {
