@@ -1,6 +1,10 @@
 function showCarousel(carouselId) {
-    const carousels = document.getElementsByClassName('hero-body');
-    for (let carousel of carousels) {
-        carousel.style.display = carousel.id === carouselId ? 'block' : 'none';
+    // Hide all images
+    var carousels = document.getElementsByClassName('grid');
+    for(var i = 0; i < carousels.length; i++) {
+        carousels[i].style.display = 'none';
     }
-}
+    
+    // Show the selected image
+    document.getElementById(carouselId).style.display = 'block';
+  }
