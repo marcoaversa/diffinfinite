@@ -152,9 +152,9 @@ body {
 }
 
 .button {
-  background-color: #46b84a; /* Green */
+  background-color: #777777; 
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
