@@ -139,6 +139,7 @@ body {
 }
 
 .grid {
+  margin: 0 auto; /* Center grid */
   box-sizing: border-box;
   padding: 10px;
   display: grid;
