@@ -142,10 +142,16 @@ body {
   box-sizing: border-box;
   padding: 10px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 .vertical-text {
   writing-mode: vertical-lr;
   text-align: center;
+}
+
+.selected-image {
+  display: none;
 }

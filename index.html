@@ -44,6 +44,7 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
   <script src="static/js/carousel-omegas.js"></script>
+  <script src="static/js/buttons.js"></script>
 </head>
 <body>
 
@@ -173,60 +174,32 @@
 </section>
 <!-- End teaser video -->
 
-<!-- 
+
 <div class="hero-body">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Alveole')">Alveole</button>
       <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Artery')">Artery</button>
-      <button onclick="showCarousel('Artifacts')">Artifacts</button>
-      <button onclick="showCarousel('Carcinoma')">Carcinoma</button>
-      <button onclick="showCarousel('Cartilage')">Cartilage</button>
-      <button onclick="showCarousel('Connective')">Connective Tissue</button>
-      <button onclick="showCarousel('Necrosis')">Necrosis</button>
-      <button onclick="showCarousel('Stroma')">Tumor Stroma</button>
+      <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Artifacts')">Artifacts</button>
+      <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Carcinoma')">Carcinoma</button>
+      <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Cartilage')">Cartilage</button>
+      <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Connective')">Connective Tissue</button>
+      <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Necrosis')">Necrosis</button>
+      <button class="external-link button is-normal is-rounded is-dark" onclick="showCarousel('Stroma')">Tumor Stroma</button>
     </div>
   </div>
-</div> -->
-
-<!-- <div class="image" id="Alveole">
-  <img src='static/images/carousel1.jpg'>
 </div>
 
-<div class="hero-body" id="Artery" style="display: none;">
-  <img src='static/images/carousel2.jpg'>
-</div> -->
-
-
-<!-- <div class="container" id="Alveole">
-  <div class="grid">
-    <div id="carousel-container-label1a"></div> 
-    <div id="carousel-container-label1b"></div> 
-  </div>
-</div>
--->
-<!-- 
-<div class="hero-container">
-  <div class="grid">
-    <div id="carousel-container-label2a"></div> 
-    <div id="carousel-container-label2b"></div> 
-  </div>
-</div>  -->
-
-<!-- <div class="select-image" id="Alveole">
-  <div class="hero-body">
-    <div class="container flex-container">
-      <div class="container">
-        <div class="grid">
-          <div id="carousel-container-label1a"></div> 
-          <div id="carousel-container-label1b"></div> 
-        </div>
+<div class="selected-image" id="Alveole" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label1a"></div> 
+      <div id="carousel-container-label1b"></div> 
     </div>
   </div>
-</div> -->
+</div>
 
-
-<div class="hero-body">
+<div class="selected-image" id="Artery" style="display: block; ">
   <div class="container">
     <div class="grid">
       <div id="carousel-container-label2a"></div> 
@@ -235,77 +208,59 @@
   </div>
 </div>
 
-<!-- <div class="hero-body">
-  <div class="container flex-container">
-    <div class="container">
-      <div class="grid">
-        <div id="carousel-container-label5a"></div> 
-        <div id="carousel-container-label5b"></div> 
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- 
-<div class="hero-body" id="Artery">
-  <div class="container flex-container">
-    <div class="container">
-      <div class="grid">
-        <div id="carousel-container-label2a"></div> 
-        <div id="carousel-container-label2b"></div> 
-      </div>
-  </div>
-</div> -->
-
-<!-- 
-<div class="hero-body">
-  <div class="container flex-container">
-    <div class="container">
-      <div class="grid">
-        <div class="vertical-text"><p><b>Alveole</b></p></div>
-        <div id="carousel-container-label1a"></div> 
-        <div id="carousel-container-label1b"></div> 
-        
-        <div class="vertical-text"><p><b>Artery</b></p></div>
-        <div id="carousel-container-label2a"></div>
-        <div id="carousel-container-label2b"></div> 
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="grid">
-        <div class="vertical-text"><p><b>Artifacts</b></p></div>
-        <div id="carousel-container-label3a"></div> 
-        <div id="carousel-container-label3b"></div> 
-        
-        <div class="vertical-text"><p><b>Carcinoma</b></p></div>
-        <div id="carousel-container-label4a"></div>
-        <div id="carousel-container-label4b"></div> 
-      </div>
-
-      <div class="grid">
-        <div class="vertical-text"><p><b>Cartilage</b></p></div>
-        <div id="carousel-container-label5a"></div> 
-        <div id="carousel-container-label5b"></div> 
-        
-        <div class="vertical-text"><p><b>Connective Tissue</b></p></div>
-        <div id="carousel-container-label6a"></div>
-        <div id="carousel-container-label6b"></div> 
-      </div>
-
-      <div class="grid">
-        <div class="vertical-text"><p><b>Necrosis</b></p></div>
-        <div id="carousel-container-label7a"></div> 
-        <div id="carousel-container-label7b"></div> 
-        
-        <div class="vertical-text"><p><b>Tumor Stroma</b></p></div>
-        <div id="carousel-container-label8a"></div>
-        <div id="carousel-container-label8b"></div> 
-      </div> 
+<div class="selected-image" id="Artifacts" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label3a"></div> 
+      <div id="carousel-container-label3b"></div> 
     </div>
   </div>
 </div>
--->
+
+<div class="selected-image" id="Carcinoma" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label4a"></div> 
+      <div id="carousel-container-label4b"></div> 
+    </div>
+  </div>
+</div>
+
+<div class="selected-image" id="Cartilage" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label5a"></div> 
+      <div id="carousel-container-label5b"></div> 
+    </div>
+  </div>
+</div>
+
+<div class="selected-image" id="Connective" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label6a"></div> 
+      <div id="carousel-container-label6b"></div> 
+    </div>
+  </div>
+</div>
+
+<div class="selected-image" id="Necrosis" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label7a"></div> 
+      <div id="carousel-container-label7b"></div> 
+    </div>
+  </div>
+</div>
+
+<div class="selected-image" id="Stroma" style="display: block; ">
+  <div class="container">
+    <div class="grid">
+      <div id="carousel-container-label8a"></div> 
+      <div id="carousel-container-label8b"></div> 
+    </div>
+  </div>
+</div>
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
