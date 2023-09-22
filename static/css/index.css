@@ -159,3 +159,12 @@ body {
   width: 20%;
   background-color: #ffffff;
 }
+
+.slider-container.is-vertical {
+  height: 300px; /* or whatever height you desire */
+  overflow: hidden;
+}
+.slider-item {
+  height: 300px; /* same as container */
+  transition: transform 0.5s ease-in-out; /* for smooth sliding */
+}

@@ -43,6 +43,8 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script src="static/js/grid4.js"></script>
+  <script src="static/js/slider-vertical.js"></script>
 </head>
 <body>
 
@@ -231,7 +233,18 @@
   </div>
 </div> -->
 
-<script>
+
+<div class="slider-container is-vertical">
+  <div class="slider-item">Item 1</div>
+  <div class="slider-item">Item 2</div>
+  <div class="slider-item">Item 3</div>
+</div>
+<button class="slider-navigation-previous" onclick="prevSlide()">Up</button>
+<button class="slider-navigation-next" onclick="nextSlide()">Down</button>
+
+
+
+<!-- <script>
   function generateHTML(labelNumber) {
     return `
     <div class="carousel results-carousel">
@@ -277,7 +290,7 @@
     }
   });
 
-</script>
+</script> -->
 
 <div class="hero-body">
   <div class="container flex-container">
