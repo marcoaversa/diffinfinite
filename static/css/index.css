@@ -143,7 +143,7 @@ body {
   padding: 10px;
   display: grid;
   /* grid-template-columns: 5% 20% 20% 5% 20% 20%; */
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 45% 45%;
 }
 
 .vertical-text {
