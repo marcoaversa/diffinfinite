@@ -20,4 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 1); // 1000 milliseconds = 1 second
   });
 
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('button');
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click', function () {
+            buttons.forEach(button => {
+                button.classList.add('is-dark'); // remove inverted class from all buttons
+            });
+            btn.classList.remove('is-dark'); // add inverted class to clicked button
+        });
+    });
+});
   
