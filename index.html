@@ -176,40 +176,51 @@
 <div class="hero-body">
   <div class="container flex-container">
     <div class="container">
-      <button class="button" onclick="showCarousel('Alveole')">Alveole</button>
-      <button class="button" onclick="showCarousel('Artery')">Artery</button>
-      <!-- <button onclick="showCarousel('Artifacts')">Artifacts</button>
-      <button onclick="showCarousel('Carcinoma')">Carcinoma</button>
-      <button onclick="showCarousel('Cartilage')">Cartilage</button>
-      <button onclick="showCarousel('Connective')">Connective Tissue</button>
-      <button onclick="showCarousel('Necrosis')">Necrosis</button>
-      <button onclick="showCarousel('Stroma')">Tumor Stroma</button> -->
+      <div id="buttonContainer">
+        <button class="button" onclick="buttonClicked1()">Alveole</button>
+        <button class="button" onclick="buttonClicked2()">Artery</button>
+        <!-- <button onclick="showCarousel('Artifacts')">Artifacts</button>
+        <button onclick="showCarousel('Carcinoma')">Carcinoma</button>
+        <button onclick="showCarousel('Cartilage')">Cartilage</button>
+        <button onclick="showCarousel('Connective')">Connective Tissue</button>
+        <button onclick="showCarousel('Necrosis')">Necrosis</button>
+        <button onclick="showCarousel('Stroma')">Tumor Stroma</button> -->
+      </div>
     </div>
   </div>
 </div>
 
+<script>
+function buttonClicked1() {
+  alert('Button1 has been clicked!');
+}
+function buttonClicked2() {
+  alert('Button2 has been clicked!');
+}
+</script>
 
-<div class="hero-body" id="Alveole">
-  <div class="container flex-container">
-    <div class="container">
-      <div class="grid">
-        <div id="carousel-container-label1a"></div> 
-        <div id="carousel-container-label1b"></div> 
-      </div>
-    </div>
-  </div>
+<!-- <div class="image" id="Alveole">
+  <img src='static/images/carousel1.jpg'>
 </div>
 
 <div class="hero-body" id="Artery" style="display: none;">
-  <div class="container flex-container">
-    <div class="container">
-      <div class="grid">
-        <div id="carousel-container-label2a"></div> 
-        <div id="carousel-container-label2b"></div> 
-      </div>
-    </div>
+  <img src='static/images/carousel2.jpg'>
+</div> -->
+
+
+<!-- <div class="container" id="Alveole">
+  <div class="grid">
+    <div id="carousel-container-label1a"></div> 
+    <div id="carousel-container-label1b"></div> 
   </div>
 </div>
+
+<div class="container" id="Artery" style="display: none;">
+  <div class="grid">
+    <div id="carousel-container-label2a"></div> 
+    <div id="carousel-container-label2b"></div> 
+  </div>
+</div> -->
 
 
 
