@@ -8,7 +8,7 @@ function showCarousel(carouselId) {
     document.getElementById(carouselId).style.display = 'block';
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function(){
         document.getElementById('Artery').style.display = 'none';
         document.getElementById('Artifacts').style.display = 'none';
@@ -19,3 +19,5 @@ function showCarousel(carouselId) {
         document.getElementById('Stroma').style.display = 'none';
     }, 1); // 1000 milliseconds = 1 second
   });
+
+  

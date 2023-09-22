@@ -142,7 +142,7 @@ body {
   box-sizing: border-box;
   padding: 10px;
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 15% 35% 35%;
   justify-content: center;
   align-items: center;
 }
