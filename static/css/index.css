@@ -156,3 +156,13 @@ body {
 .selected-image {
   display: none;
 }
+
+.grid5 {
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 10% 10% 10% 10% 10%;
+  justify-content: center;
+  align-items: center;
+}
