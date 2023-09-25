@@ -143,7 +143,24 @@ body {
   box-sizing: border-box;
   padding: 10px;
   display: grid;
-  grid-template-columns: 15% 35% 35%;
+  grid-template-columns: 10% 30% 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid2 {
+  box-sizing: border-box;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 25% 35%;
+  justify-content: center;
+  align-items: center;
+}
+.grid2-equal {
+  box-sizing: border-box;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 35% 3% 35%;
   justify-content: center;
   align-items: center;
 }

@@ -6,11 +6,7 @@
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
   <meta property="og:title" content="DiffInfinite Official Website"/>
-  <meta property="og:description" content="We present DiffInfinite, a hierarchical diffusion model that generates arbitrarily
-  large histological images while preserving long-range correlation structural information. Our approach first generates synthetic segmentation masks, subsequently
-  used as conditions for the high-fidelity generative diffusion process. The proposed
-  sampling method can be scaled up to any desired image size while only requiring
-  small patches for fast training."/>
+  <meta property="og:description" content="We present DiffInfinite, a hierarchical diffusion model that generates arbitrarily large histological images while preserving long-range correlation structural information. Our approach first generates synthetic segmentation masks, subsequently used as conditions for the high-fidelity generative diffusion process. The proposed sampling method can be scaled up to any desired image size while only requiring small patches for fast training."/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
@@ -37,6 +33,7 @@
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/zoom-in.css">
   <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
@@ -49,6 +46,7 @@
   <script src="static/js/index.js"></script>
   <script src="static/js/carousel-omegas.js"></script>
   <script src="static/js/buttons.js"></script>
+  <script src="static/js/zoom-in.js"></script>
 </head>
 <body>
 
@@ -198,7 +196,68 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-five-fifths">
-        <h2 class="title is-3">Image-Mask Generation<br></h2><br>
+        <h2 class="title is-3">Large Image Generation<br></h2><br>
+        <div class="content has-text-justified">
+          <p>
+            Comparison between real and synthetic images (2048x2048 pixels)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="grid2-equal">
+      <div class="item">
+        <h2>Real<br></h2><br>
+        <div class="img-magnifier-container" id="container">
+          <img id="zoom-in-image-real" src="static/images/large_images/large_image_real.png">
+        </div>
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+        <h2>Synthetic<br></h2><br>
+        <div class="img-magnifier-container" id="container">
+          <img id="zoom-in-image-synth" src="static/images/large_images/large_image_synth.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <div class="content has-text-justified">
+          <p>
+            DiffInfinite conditioning control visualization. The images is is generated from the squared mask shown (2048x2048 pixels). This output doesn't have biological meaning because the generated class depends on the mask shape and its neighbours. The mask generation is necessary to give this spatial information.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="columns is-centered has-text-centered">
+    <div class="grid2">
+      <div class="item">
+        <img style="width: 50%;" src="static/images/large_images/squares_masks.png"/>
+      </div>
+      <div class="item">
+        <div class="img-magnifier-container" id="container">
+          <img id="zoom-in-image-squares" src="static/images/large_images/squares.png">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <h2 class="title is-3">Mask-Image Generation<br></h2><br>
         <div class="content has-text-justified">
           <p>
             Generated images conditioned on the synthetic segmentation masks.
@@ -207,7 +266,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="container">
     <div class="grid5">
@@ -239,7 +297,7 @@
       </div>
   </div>
 
-  <div class="container" style="width: 60%;">
+  <div class="container" style="width: 50%;">
     <div class="carousel results-carousel">
       <div class="item">
         <img src="static/images/patches_generation/img_0.png"/>

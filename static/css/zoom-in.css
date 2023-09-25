@@ -1,0 +1,19 @@
+.img-magnifier-container {
+    position: relative;
+  }
+  
+  #zoom-in-image {
+    display: block;
+    width: 100%;
+    max-width: 764px;
+  }
+  
+  .magnifier-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-radius: 75%; /* To make the lens circular */
+    cursor: none; /* To hide the default cursor inside the lens */
+    /* Set the size of the lens: */
+    width: 100px;
+    height: 100px;
+  }
