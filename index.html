@@ -84,6 +84,10 @@
                     <span class="tu"><small><sup>7</sup>TU Berlin</small></span>
                   </div>
 
+                  <div class="column has-text-centered" style="font-size:20px">
+                    <span><b>NeurIPS 2023 (Spotlight)<br>Dataset and Benchmark track</b></span>
+                  </div>
+
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
@@ -164,15 +168,36 @@
 <!-- End paper abstract -->
 
 <!-- Video Methods -->
+
 <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <source src="static/videos/methods.mp4"
-        type="video/mp4">
-      </video>
+
+  <div class="selected-abstract" id="abstract-video" style="display: block; ">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/videos/methods.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
+
+  <div class="selected-abstract" id="abstract-image" style="display: block; ">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/visual_abstract.png"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <button class="external-link button is-normal is-rounded is-dark" onclick="showAbstract('abstract-image')">Image</button>
+        <button class="external-link button is-normal is-rounded is-dark" onclick="showAbstract('abstract-video')">Video</button>
+      </div>
+    </div>
+  </div>
+
 </section>
 <!-- End teaser video -->
 
