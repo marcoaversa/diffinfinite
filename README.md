@@ -52,10 +52,10 @@ fidelity --gpu 0 --fid --input1 generated_dir --input2 real_dir
 For [Improved Precision and Improved Recall](https://arxiv.org/abs/1904.06991), clone the repository [improved-precision-and-recall-metric-pytorch](https://github.com/blandocs/improved-precision-and-recall-metric-pytorch) and run
 
 ```
-python main.py --cal_type precision_and_recall --generated_dir your_generated_dir --real_dir your_real_dir
+python main.py --cal_type precision_and_recall --generated_dir generated_dir --real_dir real_dir
 ```
 
-To evaluate your generated data wrt. the [Authenticity](https://proceedings.mlr.press/v162/alaa22a/alaa22a.pdf) and the $C_{T}$ [score](https://arxiv.org/abs/2004.05675), clone the repository [fls](https://github.com/marcojira/fls) by
+To evaluate your generated data wrt. the [Authenticity](https://arxiv.org/abs/2102.08921) and the $C_{T}$ [score](https://arxiv.org/abs/2004.05675), clone the repository [fls](https://github.com/marcojira/fls) by
 
 ```
 cd diffinfinite
