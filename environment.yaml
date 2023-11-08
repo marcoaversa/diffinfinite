@@ -1,9 +1,9 @@
-name: diffusion
+name: diffinf
 channels:
   - huggingface
-  - conda-forge
   - anaconda
   - defaults
+  - conda-forge
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
@@ -150,6 +150,7 @@ dependencies:
   - nss=3.74=h0370c37_0
   - numexpr=2.8.4=py310h757a811_1
   - numpy=1.22.3=py310h4ef5377_2
+  - openblas=0.3.20=pthreads_h320a7e8_0
   - openssl=1.1.1v=h7f8727e_0
   - orc=1.7.4=hb3bc3d3_1
   - packaging=22.0=py310h06a4308_0
@@ -233,19 +234,21 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.2=ha4553b6_0
   - pip:
-      - altgraph==0.17.3
-      - denoising-diffusion-pytorch==1.5.4
-      - imageio==2.28.1
-      - lazy-loader==0.2
-      - pyarmor==8.3.3
-      - pyarmor-cli-core==4.3.1
-      - pyinstaller==5.13.0
-      - pyinstaller-hooks-contrib==2023.6
-      - pyparsing==3.0.9
-      - pyqt5-sip==12.11.0
-      - pytorch-fid==0.3.0
-      - pywavelets==1.4.1
-      - scikit-image==0.20.0
-      - termcolor==2.2.0
-      - tifffile==2023.4.12
-prefix: /home/marco/anaconda3/envs/diffusion
+    - altgraph==0.17.3
+    - beartype==0.16.4
+    - denoising-diffusion-pytorch==1.5.4
+    - ema-pytorch==0.3.0
+    - imageio==2.28.1
+    - lazy-loader==0.2
+    - pyarmor==8.3.3
+    - pyarmor-cli-core==4.3.1
+    - pyinstaller==5.13.0
+    - pyinstaller-hooks-contrib==2023.6
+    - pyparsing==3.0.9
+    - pyqt5-sip==12.11.0
+    - pywavelets==1.4.1
+    - scikit-image==0.20.0
+    - termcolor==2.2.0
+    - tifffile==2023.4.12
+    - torch-fidelity==0.3.0
+prefix: /home/fe/nobis/anaconda3/envs/diffinf
