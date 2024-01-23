@@ -152,7 +152,7 @@ class RandomDiffusionMasks:
                 img_stack[:,sub_time.min()+1,:,i-p:i+p,j-p:j+p]=sub_img*mask_changed+sub_img_stack[:,sub_time.min()+1]*(mask_changed==0)
                 times[...,i-p:i+p,j-p:j+p]=torch.where(sub_time==sub_time.min(), sub_time+1, sub_time)
             
-        return img0, img_stack    
+        return img0
     
 # Helpers
     
