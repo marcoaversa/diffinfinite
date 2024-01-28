@@ -70,3 +70,16 @@ and run
 ```
 python eval_privacy.py --train_dir train_dir --test_dir test_dir --generated_dir generated_dir 
 ```
+
+## Citations
+
+```
+@inproceedings{
+aversa2023diffinfinite,
+title={DiffInfinite: Large Mask-Image Synthesis via Parallel Random Patch Diffusion in Histopathology},
+author={Marco Aversa and Gabriel Nobis and Miriam H{\"a}gele and Kai Standvoss and Mihaela Chirica and Roderick Murray-Smith and Ahmed Alaa and Lukas Ruff and Daniela Ivanova and Wojciech Samek and Frederick Klauschen and Bruno Sanguinetti and Luis Oala},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2023},
+url={https://openreview.net/forum?id=QXTjde8evS}
+}
+```
