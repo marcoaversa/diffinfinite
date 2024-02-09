@@ -1,6 +1,6 @@
 from fire import Fire
 import yaml
-from dm_mask import Unet, GaussianDiffusion, Trainer
+from dm_masks import Unet, GaussianDiffusion, Trainer
 
 def main(
         config_file: str = None,
