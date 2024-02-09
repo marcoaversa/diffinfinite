@@ -1,6 +1,6 @@
 from fire import Fire
 import yaml
-from classifier_free_guidance import Unet, GaussianDiffusion, Trainer
+from dm_mask import Unet, GaussianDiffusion, Trainer
 
 def main(
         config_file: str = None,
